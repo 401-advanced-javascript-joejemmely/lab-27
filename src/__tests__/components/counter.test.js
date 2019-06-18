@@ -7,19 +7,19 @@ describe('Counter', () => {
     expect(mountedSimple.find('.counter')).toBeTruthy();
   });
 
-  it('changes state', () => {
+  it('increment state', () => {
     const mountedSimple = mount(<Counter />);
-    const buttonDown = mountedSimple.find('.down.clicker');
-    const buttonUp = mountedSimple.find('.up.clicker');
+    const buttonUp = mountedSimple.find('.up.clicker').at(0);
 
-    // From 0 to -1
+    buttonUp.simulate('click');
+    expect(mountedSimple.state('count')).toEqual(1);
+  });
+
+  it('decrement state', () => {
+    const mountedSimple = mount(<Counter />);
+    const buttonDown = mountedSimple.find('.down.clicker').at(0);
+
     buttonDown.simulate('click');
     expect(mountedSimple.state('count')).toEqual(-1);
-
-    // From -1 to 0
-    buttonUp.simulate('click');
-    expect(mountedSimple.state('count')).toEqual(0);
-
-    expect(mountedSimple.find('.count').text()).toContain('0');
   });
 });
