@@ -6,9 +6,11 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
-- [travis](http://xyz.com)
-- [front-end](http://xyz.com) (when applicable)
+- [submission PR](https://github.com/401-advanced-javascript-joejemmely/lab-27/pull/1)
+- [travis](https://travis-ci.com/401-advanced-javascript-joejemmely/lab-27)
+- front-end
+  - [AWS](https://submission.d1c9lym9esr0gf.amplifyapp.com/)
+  - [Netlify](https://vibrant-edison-cc3b9e.netlify.com)
 
 #### Documentation
 
@@ -16,20 +18,23 @@
 
 ### Setup
 
-#### `.env` requirements
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
-
 #### Running the app
 
-- `npm run build && npm serve`
+- `npm start`
 
 #### Tests
 
 - How do you run tests? `npm test`
 - What assertions were made?
 
-#### UML
-
-Link to an image of the UML for your application and response to events
+  - Counter
+    - it renders
+    - state changes
+    - state changes are reflected in the DOM
+    - Snapshot
+  - Header
+    - it renders
+    - Snapshot
+  - Footer
+    - it renders
+    - Snapshot
