@@ -31,7 +31,10 @@
     - it renders
     - state changes
     - state changes are reflected in the DOM
+    - Snapshot
   - Header
     - it renders
+    - Snapshot
   - Footer
     - it renders
+    - Snapshot
