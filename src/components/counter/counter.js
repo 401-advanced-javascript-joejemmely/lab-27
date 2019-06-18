@@ -2,6 +2,9 @@
 import React from 'react';
 import { jsx, css } from '@emotion/core';
 
+/**
+ * Counter component
+ */
 class Counter extends React.Component {
   constructor(props) {
     super(props);

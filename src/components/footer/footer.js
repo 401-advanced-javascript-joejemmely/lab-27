@@ -2,6 +2,9 @@
 import React from 'react';
 import { jsx, css } from '@emotion/core';
 
+/**
+ * Footer component
+ */
 class Footer extends React.Component {
   render() {
     return (
