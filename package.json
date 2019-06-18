@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@emotion/core": "^10.0.10",
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.7.0",
     "react": "16.6.3",
