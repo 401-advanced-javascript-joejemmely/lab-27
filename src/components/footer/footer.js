@@ -11,7 +11,7 @@ class Footer extends React.Component {
           text-align: center;
         `}
       >
-        &copy; 2018 Code Fellows
+        &copy; 2019 Code Fellows
       </footer>
     );
   }

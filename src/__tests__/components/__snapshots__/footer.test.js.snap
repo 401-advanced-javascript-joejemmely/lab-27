@@ -4,6 +4,6 @@ exports[`Footer rendering follows the snapshot 1`] = `
 <footer
   className="css-lte0pa"
 >
-  © 2018 Code Fellows
+  © 2019 Code Fellows
 </footer>
 `;
