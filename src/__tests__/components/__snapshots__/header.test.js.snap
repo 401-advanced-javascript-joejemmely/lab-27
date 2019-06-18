@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header rendering follows the snapshot 1`] = `
+<header>
+  <h1
+    className="css-1c7hblg"
+  >
+    Counters R Fun
+  </h1>
+</header>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter rendering follows the snapshot 1`] = `
+<section
+  className="counter css-aiy23l"
+>
+  <a
+    className="down clicker css-kmz3n4"
+    href="#"
+    onClick={[Function]}
+  >
+    -
+  </a>
+  <span
+    className="count  css-13u058o"
+  >
+    0
+  </span>
+  <a
+    className="up clicker css-1kyj0em"
+    href="#"
+    onClick={[Function]}
+  >
+    +
+  </a>
+</section>
+`;

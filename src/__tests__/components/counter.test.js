@@ -1,4 +1,5 @@
 import React from 'react';
+import rendeder from 'react-test-renderer';
 import Counter from '../../components/counter/counter';
 
 describe('Counter', () => {
@@ -21,5 +22,10 @@ describe('Counter', () => {
 
     buttonDown.simulate('click');
     expect(mountedSimple.state('count')).toEqual(-1);
+  });
+
+  it('rendering follows the snapshot', () => {
+    const snapshot = rendeder.create(<Counter />).toJSON();
+    expect(snapshot).toMatchSnapshot();
   });
 });
