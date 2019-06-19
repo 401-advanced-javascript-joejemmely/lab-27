@@ -12,10 +12,6 @@
   - [AWS](https://submission.d1c9lym9esr0gf.amplifyapp.com/)
   - [Netlify](https://vibrant-edison-cc3b9e.netlify.com)
 
-#### Documentation
-
-- [styleguide](http://xyz.com) (React assignments)
-
 ### Setup
 
 #### Running the app
