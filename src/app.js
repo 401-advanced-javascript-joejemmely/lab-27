@@ -6,6 +6,9 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Counter from './components/counter/counter';
 
+/**
+ * App component
+ */
 class App extends React.Component {
   render() {
     return (
