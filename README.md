@@ -18,7 +18,7 @@
 
 - `npm start`
 
-#### Tests
+### Tests
 
 - How do you run tests? `npm test`
 - What assertions were made?
@@ -34,3 +34,9 @@
   - Footer
     - it renders
     - Snapshot
+
+### UML
+
+Lab - 27
+
+![Lab - 27](https://www.plantuml.com/plantuml/png/0/HOzD2i8m48NtSue1D_xGZHj125GiuiAj1qYRWGff4f89BeftyIoUpBIfSJVVUyoRDtLWwJaE6e0Vh0bliiKAzmS0wBGC0K_EuGYlmbUIYdoMidAsqJ3vpti4H25I8fCGQLvXDrb74uUM_6mEnBrLORPtlJHAqzsjDtzgxDDaZawbe2KyIUNUnLh-DPZQLTLsQLLmsIgSLm1gCYez-mK0 'Lab - 27')

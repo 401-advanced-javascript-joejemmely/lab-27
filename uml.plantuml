@@ -1,0 +1,29 @@
+@startuml
+
+title Lab - 27
+
+
+class App {
+}
+
+
+class Header {
+}
+
+class Counter {
+  ==state==
+  # count:number
+  ==methods==
+  +handleUp()
+  +handleDown()
+  +updateCounter()
+}
+
+class Footer {
+}
+
+App --* Header
+App --* Counter
+App --* Footer
+
+@enduml
